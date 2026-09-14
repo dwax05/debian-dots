@@ -18,3 +18,6 @@ overwritten; move them aside first if you want this repo to own them. Set
 It intentionally does not copy credentials, SSH keys, Git identity, histories,
 GNOME preferences, or account-bound tools and services such as Tailscale,
 Playit, Claude, and Codex.
+
+Open `nvim` once after setup to install its plugins. This intentionally runs in
+an interactive editor session, not as part of the system bootstrap.

@@ -113,6 +113,5 @@ fi
 "$HOME/.config/tmux/plugins/tpm/bin/install_plugins"
 
 sudo chsh -s /usr/bin/zsh "$setup_user"
-/opt/nvim/bin/nvim --headless '+Lazy! sync' +qa
 
-printf '\nsetup: complete; log out and back in to pick up Zsh and Docker group membership\n'
+printf '\nsetup: complete; log out and back in to pick up Zsh and Docker group membership, then open nvim once\n'
